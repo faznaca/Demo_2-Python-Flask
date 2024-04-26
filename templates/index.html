@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Purchase Prediction</title>
+    <link rel="stylesheet" type="text/css" href="../static/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Purchase Prediction</h1>
+        <form method="POST" action="/prediction">
+            <label for="age">Age:</label>
+            <input type="number" name="age" id="age" required>
+            
+            <label for="salary">Salary:</label>
+            <input type="number" name="salary" id="salary" required>
+
+            <button type="submit">Predict</button>
+        </form>
+    </div>
+</body>
+</html>
